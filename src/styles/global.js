@@ -16,13 +16,14 @@ export default createGlobalStyle`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   main{
-    height: 95vh;
     width: 95vw;
     max-width: 800px;
+
+    margin: 16px 0;
 
     display: flex;
     flex-direction: column;

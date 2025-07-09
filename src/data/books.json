@@ -1,0 +1,68 @@
+[{
+  "Base": [
+    {
+      "title": "A Vida Intelectual",
+      "author": "Antonin-Dalmace Sertillanges"
+    },
+    {
+      "title": "Ideias Têm Consequências",
+      "author": "Richard M. Weaver"
+    },
+    {
+      "title": "A apologia de Sócrates",
+      "author": "Platão"
+    },
+    {
+      "title": "Meditar e Aprender",
+      "author": "Hugo de São Vitor"
+    },
+    {
+      "title": "O Trivium",
+      "author": "Irmã Miriam Joseph"
+    },
+    {
+      "title": "Hereges",
+      "author": "G.K. Chesterton"
+    },
+    {
+      "title": "Ortodoxia",
+      "author": "G.K. Chesterton"
+    },
+    {
+      "title": "O Saber dos Antigos",
+      "author": "Giovanni Reale"
+    }
+  ],
+  "Literatura": [
+    {
+      "title": "Crime e castigo",
+      "author": "Fyodor Dostoevsky"
+    }
+  ],
+  "Religião": [
+    {
+      "title": "Antropoteísmo - A Religião do Homem",
+      "author": "Orlando Fedeli"
+    },
+    {
+      "title": "São Tomas de Aquino",
+      "author": "João Ameal"
+    }
+  ],
+  "História": [
+    {
+      "title": "A História da Igreja de Cristo I",
+      "author": "Daniel Rops"
+    }
+  ],
+  "Pós-Modernismo": [
+    {
+      "title": "Catecismo da Crise na Igreja",
+      "author": "Pe. Matthias Gaudron"
+    },
+    {
+      "title": "A Sociedade Industrial e Seu Futuro",
+      "author": "Theodore Kaczynski"
+    }
+  ]
+}]
