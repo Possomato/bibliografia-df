@@ -1,8 +1,19 @@
+import { Category } from './components/Category'
+import { Book } from './components/Book'
+
 function App() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <main>
+      <h1>Bibliografia - Nivelamento</h1>
+      <Category categoryName="Literatura">
+        <Book title="The Hobbit" author="J. R. R. Tolkien" />
+        <Book title="Crime and Punishiment" author="Fiodor Dostoievski" />
+      </Category>
+      <Category categoryName="Literatura">
+        <Book title="The Hobbit" author="J. R. R. Tolkien" />
+        <Book title="Crime and Punishiment" author="Fiodor Dostoievski" />
+      </Category>
+    </main>
   )
 }
 
