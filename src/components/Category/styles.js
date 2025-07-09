@@ -18,7 +18,7 @@ export const Container = styled.div`
 
   h2 {
     color: ${({ theme }) => theme.COLORS.BROWN_300};
-    font-size: 32px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     font-family: 'Lora', serif;
     font-weight: 600;
   }

@@ -4,7 +4,8 @@ export const Container = styled.li`
   position: relative;
   padding-left: 24px;
   color: ${({ theme }) => theme.COLORS.BROWN_400};
-  font-size: 24px;
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+
 
   font-family: 'Lora', serif;
   font-weight: 500;
