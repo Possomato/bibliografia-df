@@ -1,10 +1,13 @@
-import { Container } from "./styles"
+import { Container, Content, Check } from './styles'
 
-export function Book({ title, author }) {
+export function Book({ title, author, id }) {
   return (
     <Container>
-      {title}
-      <span>{author}</span>
+      <Check type="checkbox" id={id} name={id} />
+      <Content>
+        {title}
+        <span>{author}</span>
+      </Content>
     </Container>
   )
 }

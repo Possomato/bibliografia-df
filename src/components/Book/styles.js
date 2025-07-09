@@ -1,10 +1,32 @@
 import styled from 'styled-components'
 
 export const Container = styled.li`
+  position: relative;
+  padding-left: 24px;
   color: ${({ theme }) => theme.COLORS.BROWN_400};
+  font-size: 24px;
+
+  font-family: 'Lora', serif;
+  font-weight: 500;
+
+  display: block;
+`
+
+export const Check = styled.input`
+  position: absolute;
+  left: 0;
+  top: 0.8em;
+`
+
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
+
   span {
     color: ${({ theme }) => theme.COLORS.BROWN_300};
+
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
   }
 `
