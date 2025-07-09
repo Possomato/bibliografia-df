@@ -38,6 +38,9 @@ export default createGlobalStyle`
     padding: 24px 0;
     font-family: 'Lora', serif;
     font-weight: 500;
+
+    text-align: center;
+    width: 300px;
   }
 
 `
